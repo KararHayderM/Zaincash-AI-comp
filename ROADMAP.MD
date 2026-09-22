@@ -1,12 +1,12 @@
 Karar Hayder's entry into the zaincash agentic AI competition 9/22/2026
 Below is my full roadmap and thought process detailed
 
-## Stage 0: Local vs API
+# Stage 0: Local vs API
 
 This is a Matter of cost, reliability and Maintainability,
 We need Low Cost, High reliability and High Maintainability, all while being scaleable for increasing amounts of customers.
 
-**0.1 Self hosted LLM Server**
+## **0.1 Self hosted LLM Server**
 
 According to blogs, Local AI GPU hardware for 70B+ models typically costs $4,200 for a professional RTX A6000 or 
 $10,000+ for an A100 with a passive cost of $30 – $80+ per month due to electricity,
@@ -19,33 +19,33 @@ infrastructure is limited and scaleability can put the service integrity at risk
 Needs infrastructure for backups incase something goes wrong with the main server
 which would be double cost.
 
-**Conclusion: Not preferable.**
+## **Conclusion: Not preferable.**
 
 
-**0.2 Cloud based LLM**
+## **0.2 Cloud based LLM**
 
 For starters, this provides the Scaleable infrastructure with possibility of backups
 The Main provider would be Amazon as they have many services such as AWS and even services more tailored towards AI.
 
 Three Main Amazon services to note,
 
-**0.2.1 Bedrock API**
+### **0.2.1 Bedrock API**
 - Multiple AI models readily available
 - Zero infrastructure management
 - Highly controllable LLMs through Guardrails and knowledge bases
 
-**0.2.2 SageMaker Endpoints**
+### **0.2.2 SageMaker Endpoints**
 - Can Use Custom fine tuned LLMs
 - More infrastructure management, better control
 - Predictable token usage
 
-**0.2.3 Self-Hosted EC2**
+### **0.2.3 Self-Hosted EC2**
 - Handles High token volume >10B monthly
 - requires a Machine learning team to manage the infrastructure
 - Has custom inference optimizations (vLLM, TensorRT-LLM, custom kernels)
 - Can have 1-3 year Reserved Instances for the deepest discounts
 
-**Conclusion:**
+## **Conclusion:**
 
 this has high maintainability, reliability (Backup LLM models when one fails), with cost varying.
 
