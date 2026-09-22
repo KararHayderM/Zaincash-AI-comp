@@ -6,11 +6,10 @@ Below is my full roadmap and thought process detailed
 This is a Matter of cost, reliability and Maintainability,
 We need Low Cost, High reliability and High Maintainability, all while being scaleable for increasing amounts of customers.
 
-Self hosted LLM Server-
+**Self hosted LLM Server**
 
-According to blogs Local AI
-GPU hardware for 70B+ models typically costs $4,200 for a professional RTX A6000 or $10,000+ for an A100
-with a passive cost of $30 – $80+ per month due to electricity,
+According to blogs, Local AI GPU hardware for 70B+ models typically costs $4,200 for a professional RTX A6000 or 
+$10,000+ for an A100 with a passive cost of $30 – $80+ per month due to electricity,
 all while putting fees for physical maintainance aside with scaleability being a roadblock.
 
 Pros: Completely private enviorment for privacy , Fully tailored for specific needs.
