@@ -113,7 +113,7 @@ replied with the following:
 Gemini wins for the purposes of this hackathon,
 lowest cost per token - strongest Iraqi dialect - Good reasoning for an AI assistant rather than a full blown cybersecurity expert.
 
-## Stage 1: Research & Data 
+# Stage 1: Research & Data 
 
 **1.1 Real World Examples:**
 ### Scam Pattern: Holiday Prize / Gift Promotion
