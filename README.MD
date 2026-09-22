@@ -67,6 +67,7 @@ This method is using direct API calls to AI providers with no middle man,
 Easily maintainable with reliability and cost varying based on the provider.
 
 Anthropic's Claude
+
 -Claude's main selling point is logic, tasks such as coding or work
 -Varied pricing based on Tiers, Flagship-tier pricing in the roughly $5/$25 per million input/output tokens range with cheaper tiers avaliable.
 -Claude was prompted to make a scenario and speak in iraqi arabic-
@@ -74,6 +75,7 @@ replied with the following:
 "وكفة شوي — هاي أول مرة ترسل فلوس لهذا الحساب، والمبلغ أكبر من المعتاد بكثير. إذا وصلتك رسالة تگول فزت بجائزة وتحتاج ترسل فلوس حتى تستلمها، هاي طريقة نصب معروفة. الشركات الحقيقية ما تطلب منك ترسل فلوس عشان تستلم جائزة. تريد تكمل العملية؟"
 
 Google's Gemini
+
 -cheapest per-token option among the three
 -Very peformant on Assistance rather than logical work (such as claude's coding)
 -Gemini was prompted to make a scenario and speak in iraqi arabic-
