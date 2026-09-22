@@ -94,20 +94,20 @@ replied with the following:
 - Claude's arabic is more of gulf sounding (personal opinion)
 - Claude's pricing is on the higher end
 
-- Claude is not preferable
+**Claude is not preferable**
 
 - ChatGPT's API would be the easiest to work with
 - ChatGPT kept being vague in the prompt reply
 - ChatGPT's pricing is similar to claude
 - ChatGPT's iraqi arabic is better than claude
 
-- ChatGPT is more preferable
+**ChatGPT is more preferable**
 
 - Gemini has the lower prices
 - Gemini is better for assistance
 - Gemini has the best iraqi dialect 
 
-- Gemini Beats ChatGPT
+**Gemini Beats ChatGPT**
 
 **Conclusion:**
 Gemini wins for the purposes of this hackathon,
