@@ -19,7 +19,7 @@ infrastructure is limited and scaleability can put the service integrity at risk
 Needs infrastructure for backups incase something goes wrong with the main server
 which would be double cost.
 
-## **Conclusion: Not preferable.**
+### **Conclusion: Not preferable.**
 
 
 ## **0.2 Cloud based LLM**
