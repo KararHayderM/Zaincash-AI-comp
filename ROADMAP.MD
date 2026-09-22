@@ -113,6 +113,19 @@ replied with the following:
 Gemini wins for the purposes of this hackathon,
 lowest cost per token - strongest Iraqi dialect - Good reasoning for an AI assistant rather than a full blown cybersecurity expert.
 
+## Stage 1: Research & Data 
+
+**1.1 Real World Examples:**
+### Scam Pattern: Holiday Prize / Gift Promotion
+- **Platform:** Telegram, Instagram (social media DM, not wallet-native)
+- **Trigger:** Message around religious holidays (e.g. Eid al-Fitr) claiming a cash gift/prize
+- **Tactic:** Requests account credentials or verification info under guise of "claiming" the gift
+- **Real-world basis:** Personal accounts — multiple friends lost Telegram/Instagram accounts to this pattern
+- **Detection signal candidate:** timing correlation with holidays + urgency + credential/OTP request
+
+
+
+
 
 
 
