@@ -60,12 +60,13 @@ but on a larger scale Could be used based on company needs.
 
 Source: wring.co/blog/aws-llm-hosting-vs-api-costs, 2026.
 
-**0.3 Direct API LLM**
+
+## **0.3 Direct API LLM**
 
 This method is using direct API calls to AI providers with no middle man,
 Easily maintainable with reliability and cost varying based on the provider.
 
-**0.3.1 Anthropic's Claude**
+### **0.3.1 Anthropic's Claude**
 
 - Claude's main selling point is logic, tasks such as coding or work
 - Varied pricing based on Tiers, Flagship-tier pricing in the roughly $5/$25 per million input/output tokens range with cheaper tiers available.
@@ -73,14 +74,14 @@ Easily maintainable with reliability and cost varying based on the provider.
 replied with the following:
 "وكفة شوي — هاي أول مرة ترسل فلوس لهذا الحساب، والمبلغ أكبر من المعتاد بكثير. إذا وصلتك رسالة تگول فزت بجائزة وتحتاج ترسل فلوس حتى تستلمها، هاي طريقة نصب معروفة. الشركات الحقيقية ما تطلب منك ترسل فلوس عشان تستلم جائزة. تريد تكمل العملية؟"
 
-**0.3.2 Google's Gemini**
+### **0.3.2 Google's Gemini**
 
 - Cheapest per-token option among the three
 - Very performant on Assistance rather than logical work (such as claude's coding)
 - Gemini was prompted to make a scenario and speak in iraqi arabic-
 "عمي، دير بالك. هاي أول مرة تحول فلوس لهذا الرقم، والقصة تشبه سوالف النصب مالت الجوائز. النصابين عادة يطلبون 'رسوم' سريعة حتى يمشون المعاملة، وبعدين يختفون وماكو أي جائزة."
 
-**0.3.3 OpenAI's ChatGPT**
+### **0.3.3 OpenAI's ChatGPT**
 
 - The best SDK/API, highly documented with a large community behind it.
 - excels at general purpose tasks rather than specialised logic or assistance
@@ -88,29 +89,29 @@ replied with the following:
 - Chatgpt was prompted to make a scenario and speak in iraqi arabic-
 "أبو علي، انتبه، هاي أول مرة تحوّل لهذا الحساب والمبلغ أعلى من تحويلاتك المعتادة، فممكن تكون العملية مشبوهة. خل نراجعها قبل لا تأكد."
 
-**Thoughts:**
+### **Thoughts:**
 
 - Claude's logic and reasoning isn't all that needed here
 - Claude's arabic is more of gulf sounding (personal opinion)
 - Claude's pricing is on the higher end
 
-**Claude is not preferable**
+### **Claude is not preferable**
 
 - ChatGPT's API would be the easiest to work with
 - ChatGPT kept being vague in the prompt reply
 - ChatGPT's pricing is similar to claude
 - ChatGPT's iraqi arabic is better than claude
 
-**ChatGPT is more preferable**
+### **ChatGPT is more preferable**
 
 - Gemini has the lower prices
 - Gemini is better for assistance
 - Gemini has the best iraqi dialect 
 
-**Gemini Beats ChatGPT**
+### **Gemini Beats ChatGPT**
 
-**Conclusion:**
-Gemini wins for the purposes of this hackathon,
+### **Conclusion:**
+- Gemini wins for the purposes of this hackathon,
 lowest cost per token - strongest Iraqi dialect - Good reasoning for an AI assistant rather than a full blown cybersecurity expert.
 
 # Stage 1: Research & Data 
